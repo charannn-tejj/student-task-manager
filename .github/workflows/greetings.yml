@@ -10,7 +10,7 @@ jobs:
   greeting:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/first-interaction@v1
+      - uses: actions/first-interaction@v3
         with:
           repo-token: ${{ secrets.GITHUB_TOKEN }}
           issue-message: 'Welcome to the Student Task Manager community! 🎉 Thank you for opening your first issue. Our maintainers will review it shortly. Please make sure to follow our Code of Conduct and Contributing Guidelines.'
