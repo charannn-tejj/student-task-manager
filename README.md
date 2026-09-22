@@ -332,3 +332,5 @@ If you encounter issues during setup or use, please refer to the cases below:
 ### 3. PDF/PNG Export Failures
 * **Symptom:** Clicking "Export PDF" or "Export Charts" fails silently or prints warning messages to the console.
 * **Resolution:** Ensure all resources (e.g. avatar images, Chart.js libraries) are fully loaded before exporting. If hosting locally, run a lightweight local server (e.g., `npx http-server` or `python -m http.server`) rather than double-clicking the HTML file directly, as browsers restrict some canvas functions for local `file://` protocols.
+#   s t u d e n t - t a s k - m a n a g e r  
+ 
